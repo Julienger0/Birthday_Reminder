@@ -21,7 +21,7 @@ function People({ people, setPeople }) {
                     <button onClick={() => Delete(peopleInfo)} className="container btn btn-outline-light bg-light"><FaTrash color="#e34020" /></button>
                 </div>
             ))}
-            <button onClick={() => setPeople([])}>clear all</button>
+            <button onClick={() => setPeople([])} className="container-fluid btn btn-danger">clear all</button>
 
         </div>
     )
